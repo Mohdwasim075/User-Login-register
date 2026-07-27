@@ -1,0 +1,79 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-image:url(assets/5_asfasw112.jpg) ;
+    background-size: cover;
+
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
+    }
+
+
+
+.container{
+    background-color:#1e003c;
+    width: 400px;
+    height: auto;
+    border: 2px solid  ;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+.incorrect label{
+    background-color: #ff0000;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: underline;
+    color: #dcd8e0;
+}
+.center{
+    text-align: center;
+}
+a:active {
+  color: ghostwhite;
+}
+button:hover{
+    background-color: #ACBFA4;
+    color: #A03A13;
+}
+/* input {
+  border: 2px solid blue;
+  border-radius: 8px;
+  padding: 10px;
+} */
+button {
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+
+#login-btn, #resent-btn {
+    float : right;
+
+}
+label , p{
+    
+    color: #dcd8e0;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+#create-btn{
+    float: right;
+}
+
+
